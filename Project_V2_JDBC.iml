@@ -16,7 +16,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="eclipse.persistence.eclipselink" level="project" />
     <orderEntry type="library" name="jakarta.persistence.api" level="project" />
+    <orderEntry type="library" name="eclipse.persistence.eclipselink_V3" level="project" />
   </component>
 </module>

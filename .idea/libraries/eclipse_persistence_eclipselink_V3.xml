@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="eclipse.persistence.eclipselink_V3" type="repository">
+    <properties maven-id="org.eclipse.persistence:eclipselink:3.0.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/eclipselink-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

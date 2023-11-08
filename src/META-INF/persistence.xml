@@ -3,6 +3,8 @@
     <persistence-unit name="Project_V2_JDBC_mysql" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>Entitys.Kunde</class>
+        <class>Entitys.Praxis</class>
+        <class>Entitys.Sicherheit</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
             <property name="jakarta.persistence.jdbc.url"
