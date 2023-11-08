@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="eclipse.persistence.moxy" type="repository">
+    <properties maven-id="org.eclipse.persistence:org.eclipse.persistence.moxy:4.0.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.persistence.moxy-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.xml.bind-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.persistence.core-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.persistence.asm-9.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/angus-activation-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.activation-api-2.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/angus-mail-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.mail-api-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
