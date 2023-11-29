@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif; /* Neue Schriftart für den Haupttext */
+}
+
+.main-container {
+    display: flex;
+    background-color: #07568F;
+    padding: 20px 20px 10px 20px;
+    color: white;
+}
+
+.logo-div {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+    border:none
+}
+
+.user-name {
+    line-height: 0.5;
+    margin-right: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+
+.user-details {
+    width: 50%;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+
+.user-details-main {
+    display: flex;
+    justify-content: right;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+
+.user-short-name {
+    position: relative;
+    top: 4px;
+    font-weight: 600;
+    color: #003E77;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+
+.user-short-name-div {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Roboto für kleinere Überschriften */
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-items {
+    width: 60%;
+    display: flex;
+}
+
+.menu-items a {
+    color: #003E77;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; /* Roboto für Menü-Links */
+}
+
+.menu-items a:hover {
+    color: #fff;
+    background-color: #003E77;
+}
+
+.divider {
+    background-color: #003E77;
+    height: 40px;
+    width: 1px;
+}
+
+.heading {
+    width: 40%;
+    text-align: right;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+
+.heading p {
+    color: #003E77;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
+
+.praxis-data-heading-right {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.praxis-data-heading-left {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.praxis-content-heading {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.praxis-data-content-data {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.praxis-content-main-container {
+    display: flex;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.praxis-content-main-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.praxis-data-headings {
+    display: flex;
+    padding: 10px 20px;
+    color: white;
+}
+
+.praxis-data-main {
+    background-color: #07568F;
+    padding: 20px;
+}
+
+.praxis-data-content {
+    background-color: white;
+    padding: 20px;
+    color: #003E77;
+}
+
+.praxis-data-inner {
+    border: none;
+}
+
+.kontodaten-main {
+    display: flex;
+    margin-top: 30px;
+}
+
+.kontodaten, .antraege {
+    width: 50%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    padding: 100px;
+    text-align: center;
+    color: #07568F;
+    margin: 20px 20px 20px 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.kontodaten:hover, .antraege:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#timestampOutput {
+    color: white;
+    padding-top: 10px;
+}
+
+.account-actions {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.Ändern, .Speichern {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.ÄndernButton, .SpeichernButton {
+    background-color: #07568F;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ÄndernButton:hover, .SpeichernButton:hover {
+    background-color: #003E77;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .main-container, .user-details-main, .praxis-data-headings, .kontodaten-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-div, .user-details, .heading, .kontodaten, .antraege {
+        width: 100%;
+        text-align: center;
+    }
+
+    .user-short-name-div {
+        margin-bottom: 20px;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-items a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .divider {
+        display: none;
+    }
+}
+
+
+/* Adding modern CSS transitions and animations */
+
+/* Smooth transition for all hover effects */
+a:hover, button:hover, .praxis-content-main-container:hover, .kontodaten:hover, .antraege:hover {
+    transition: all 0.3s ease;
+}
+
+/* Animation for logo */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.logo-div {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Scale animation for menu items on hover */
+.menu-items a:hover {
+    transform: scale(1.1);
+}
+
+/* Rotating animation for user-short-name-div on hover */
+.user-short-name-div:hover {
+    animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Adding a slight movement to headings on hover */
+.heading:hover {
+    animation: move 0.5s ease-in-out;
+}
+@keyframes move {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+}
