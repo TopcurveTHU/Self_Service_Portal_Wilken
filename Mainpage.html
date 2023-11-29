@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Arztpraxis Home</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="logo-div">
+        <p>Self-Service Portal: Praxis_Name </p>
+      </div>
+      <div class="user-details">
+        <div class="user-details-main">
+          <div class="user-name">
+            <p>Jürgen Sonne</p>
+            <p>Sie sind angemeldet</p>
+          </div>
+          <div class="user-short-name-div">
+            <p class="user-short-name">JS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+        <div class="menu-items">
+            <a href="Setting.html">Kontodaten</a>
+            <span class="divider"></span>
+            <a href="#">Anträge</a>
+            <span class="divider"></span>
+            <a href="#">Weitere Tabs</a>
+        </div>
+        <div class="heading">
+            <a href="Setting.html"><p>Profilinformationen bearbeiten</p></a>
+        </div>
+    </div>
+    <div class="praxis-data-main">
+        <div class="praxis-data-headings">
+            <div class="praxis-data-heading-left">
+                <p>Praxis Daten</p>
+            </div>
+            <div class="praxis-data-heading-right">
+                <p id="timestampOutput"></p>
+            </div>
+        </div>
+        <div class="praxis-data-content">
+            <div class="praxis-data-inner">
+                <div class="praxis-content-main-container">
+                    <div class="praxis-content-heading">
+                        <p>Praxis-Name:</p>
+                    </div>
+                    <div class="praxis-data-content-data">
+                        <p>Beispiel_Praxis</p>
+                    </div>
+                </div>  
+                <div class="praxis-content-main-container">
+                    <div class="praxis-content-heading">
+                        <p>Kundennummer:</p>
+                    </div>
+                    <div class="praxis-data-content-data">
+                        <p>122132</p>
+                    </div>
+                </div>  
+                <div class="praxis-content-main-container">
+                    <div class="praxis-content-heading">
+                        <p>Adresse:</p>
+                    </div>
+                    <div class="praxis-data-content-data">
+                        <p>Straße, Hausnr, Stadt, PLZ</p>
+                    </div>
+                </div>  
+                <div class="praxis-content-main-container">
+                    <div class="praxis-content-heading">
+                        <p>Telefonnummer:</p>
+                    </div>
+                    <div class="praxis-data-content-data">
+                        <p>(+49) 0731 123123</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="kontodaten-main">
+            <div class="kontodaten">
+                <p>Kontodaten</p>
+            </div>
+            <div class="antraege">
+                <p>Anträge</p>
+            </div>
+        </div>
+     
+        <script>
+            function updateCurrentTime() {
+              const currentDate = new Date();
+              // Formatieren Sie das Datum und die Uhrzeit im gewünschten Format
+              const formattedDate = currentDate.toLocaleString('de-DE', {
+                day: '2-digit',
+                month: '2-digit',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+              });
+          
+              // Anzeigen des Ergebnisses im Element mit der ID 'timestampOutput'
+              const outputSpan = document.getElementById('timestampOutput');
+              outputSpan.textContent = formattedDate;
+            }
+          
+            // Aktualisieren der Zeit jede Sekunde
+            setInterval(updateCurrentTime, 1000);
+          
+            // Erster Aufruf der Funktion, um die Zeit sofort beim Laden der Seite zu setzen
+            updateCurrentTime();
+          </script>
+
+    </div>
+  </body>
+</html>
