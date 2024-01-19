@@ -1,0 +1,1 @@
+08-Jan-2024 14:58:44.703 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/*] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
