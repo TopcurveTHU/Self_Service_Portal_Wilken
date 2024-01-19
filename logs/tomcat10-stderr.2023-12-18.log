@@ -1,0 +1,653 @@
+
+2023-12-18 11:07:49 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 11:07:49.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 11:07:49.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 11:07:49.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 11:07:49.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 11:07:49.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 11:07:49.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 11:07:49.999 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 11:07:50.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 11:07:50.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 11:07:50.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:07:50.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 11:07:50.124 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 11:07:50.436 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:07:50.468 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [738] milliseconds
+18-Dec-2023 11:07:50.546 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 11:07:50.546 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 11:07:50.608 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 11:07:52.233 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:07:52.312 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 11:07:52.421 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,813] ms
+18-Dec-2023 11:07:52.421 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 11:07:52.468 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:07:52.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [62] ms
+18-Dec-2023 11:07:52.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 11:07:53.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [1,422] ms
+18-Dec-2023 11:07:53.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 11:07:53.936 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:07:53.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [47] ms
+18-Dec-2023 11:07:53.952 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 11:07:54.030 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:07:54.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [94] ms
+18-Dec-2023 11:07:54.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 11:07:55.108 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:07:55.124 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 11:07:55.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,094] ms
+18-Dec-2023 11:07:55.140 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:07:55.202 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4735] milliseconds
+18-Dec-2023 11:07:56.452 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:07:56.468 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 11:07:56.499 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:07:56.519 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 11:08:39 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:08:40.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 11:08:40.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 11:08:40.187 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 11:08:40.515 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:08:40.547 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [660] milliseconds
+18-Dec-2023 11:08:40.625 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 11:08:40.625 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 11:08:40.672 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 11:08:40.687 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken] was found with a last modified time that did not match the associated WAR. It will be deleted.
+18-Dec-2023 11:08:42.297 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:08:42.375 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 11:08:42.469 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,797] ms
+18-Dec-2023 11:08:42.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 11:08:42.515 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:08:42.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [62] ms
+18-Dec-2023 11:08:42.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 11:08:42.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [375] ms
+18-Dec-2023 11:08:42.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 11:08:42.922 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:08:42.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [31] ms
+18-Dec-2023 11:08:42.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 11:08:42.969 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:08:42.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [31] ms
+18-Dec-2023 11:08:42.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 11:08:44.031 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 11:08:44.047 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 11:08:44.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,063] ms
+18-Dec-2023 11:08:44.047 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:08:44.125 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3576] milliseconds
+18-Dec-2023 11:11:11.784 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:11:11.809 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 11:11:11.940 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 11:11:11.956 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Wilken] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Dec-2023 11:11:11.956 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Wilken] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 11:11:11.971 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 11:11:11.977 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:09:41 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:09:41.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:09:41.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:09:41.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:41.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:41.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:41.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:41.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:09:41.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:09:41.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:09:41.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:09:41.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:09:41.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:09:41.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:09:41.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:09:41.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:09:41.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:09:41.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:09:42.029 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:09:42.059 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [676] milliseconds
+18-Dec-2023 13:09:42.132 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:09:42.132 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:09:42.157 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:09:43.670 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:09:43.759 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:09:43.855 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,697] ms
+18-Dec-2023 13:09:43.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:09:43.890 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:09:43.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [47] ms
+18-Dec-2023 13:09:43.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:09:44.135 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:09:44.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [391] ms
+18-Dec-2023 13:09:44.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:09:44.317 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:09:44.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [46] ms
+18-Dec-2023 13:09:44.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:09:44.363 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:09:44.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [38] ms
+18-Dec-2023 13:09:44.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:09:45.428 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:09:45.442 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:09:45.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,066] ms
+18-Dec-2023 13:09:45.449 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:09:45.527 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3467] milliseconds
+18-Dec-2023 13:09:48.974 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:09:48.983 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:09:49.017 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:09:49.035 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:09:58 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:09:59.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:09:59.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:09:59.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:09:59.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:09:59.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:09:59.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:09:59.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:09:59.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:09:59.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:09:59.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:59.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:59.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:59.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:09:59.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:09:59.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:09:59.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:09:59.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:09:59.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:09:59.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:09:59.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:09:59.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:09:59.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:09:59.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:09:59.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:09:59.559 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:09:59.591 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [641] milliseconds
+18-Dec-2023 13:09:59.650 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:09:59.651 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:09:59.676 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:10:01.272 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:10:01.356 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:10:01.458 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,782] ms
+18-Dec-2023 13:10:01.459 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:10:01.497 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:10:01.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [51] ms
+18-Dec-2023 13:10:01.509 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:10:01.745 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:10:01.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [428] ms
+18-Dec-2023 13:10:01.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:10:01.961 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:10:01.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [44] ms
+18-Dec-2023 13:10:01.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:10:02.005 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:10:02.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [37] ms
+18-Dec-2023 13:10:02.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:10:03.085 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:10:03.100 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:10:03.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,084] ms
+18-Dec-2023 13:10:03.108 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:10:03.172 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3580] milliseconds
+18-Dec-2023 13:10:38.308 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:10:38.317 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:10:38.358 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:10:38.368 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:12:06 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:12:06.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:12:06.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:12:06.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:12:06.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:12:06.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:12:06.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:12:06.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:12:06.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:12:06.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:12:06.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:06.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:06.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:06.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:06.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:12:06.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:12:06.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:12:06.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:12:06.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:12:06.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:12:06.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:12:06.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:12:06.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:12:06.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:12:06.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:12:07.200 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:12:07.232 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [655] milliseconds
+18-Dec-2023 13:12:07.300 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:12:07.300 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:12:07.325 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:12:08.839 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:08.931 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:12:09.033 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,707] ms
+18-Dec-2023 13:12:09.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:12:09.067 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:09.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [48] ms
+18-Dec-2023 13:12:09.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:12:09.310 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:09.466 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [383] ms
+18-Dec-2023 13:12:09.466 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:12:09.492 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:09.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [46] ms
+18-Dec-2023 13:12:09.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:12:09.536 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:09.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [40] ms
+18-Dec-2023 13:12:09.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:12:10.614 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:10.635 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:12:10.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,086] ms
+18-Dec-2023 13:12:10.643 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:12:10.701 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3468] milliseconds
+18-Dec-2023 13:12:33.730 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:12:33.739 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:12:33.772 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:12:33.789 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:12:42 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:12:43.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:12:43.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:12:43.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:12:43.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:43.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:43.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:12:43.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:12:43.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:12:43.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:12:43.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:12:43.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:12:43.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:12:43.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:12:43.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:12:43.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:12:43.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:12:43.423 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:12:43.775 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:12:43.809 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [679] milliseconds
+18-Dec-2023 13:12:43.888 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:12:43.888 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:12:43.928 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:12:45.923 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:46.013 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:12:46.114 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [2,187] ms
+18-Dec-2023 13:12:46.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:12:46.150 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:46.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [52] ms
+18-Dec-2023 13:12:46.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:12:46.425 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:46.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [446] ms
+18-Dec-2023 13:12:46.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:12:46.636 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:46.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [46] ms
+18-Dec-2023 13:12:46.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:12:46.683 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:46.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [38] ms
+18-Dec-2023 13:12:46.699 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:12:47.971 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:12:47.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:12:47.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,295] ms
+18-Dec-2023 13:12:47.997 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:12:49.714 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5904] milliseconds
+18-Dec-2023 13:13:35.784 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:13:35.797 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:13:35.834 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:13:35.845 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:14:35 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:14:36.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:14:36.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:14:36.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:14:36.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:14:36.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:14:36.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:14:36.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:14:36.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:14:36.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:14:36.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:14:36.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:14:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:14:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:14:36.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:14:36.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:14:36.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:14:36.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:14:36.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:14:36.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:14:36.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:14:36.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:14:36.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:14:36.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:14:36.363 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:14:36.682 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:14:36.712 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [629] milliseconds
+18-Dec-2023 13:14:36.775 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:14:36.775 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:14:36.797 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:14:38.463 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:14:38.552 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:14:38.658 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,861] ms
+18-Dec-2023 13:14:38.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:14:38.697 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:14:38.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [50] ms
+18-Dec-2023 13:14:38.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:14:38.981 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:14:39.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [432] ms
+18-Dec-2023 13:14:39.143 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:14:39.165 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:14:39.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [44] ms
+18-Dec-2023 13:14:39.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:14:39.208 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:14:39.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [37] ms
+18-Dec-2023 13:14:39.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:14:40.299 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber,mitarbeiter,tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:14:40.312 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:14:40.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,091] ms
+18-Dec-2023 13:14:40.319 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:14:40.388 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3675] milliseconds
+18-Dec-2023 13:15:03.491 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:15:03.501 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:15:03.539 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:15:03.548 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:16:21 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:16:21.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:16:21.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:16:21.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:16:21.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:16:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:16:22.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:16:22.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:16:22.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:16:22.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:16:22.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:16:22.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:16:22.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:16:22.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:16:22.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:16:22.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:16:22.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:16:22.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:16:22.012 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:16:22.335 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:16:22.366 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [659] milliseconds
+18-Dec-2023 13:16:22.442 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:16:22.442 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:16:22.466 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:16:24.038 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.039 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.039 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.128 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:16:24.224 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,757] ms
+18-Dec-2023 13:16:24.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:16:24.261 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.261 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.261 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [51] ms
+18-Dec-2023 13:16:24.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:16:24.517 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.518 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [418] ms
+18-Dec-2023 13:16:24.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:16:24.715 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.715 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.716 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [44] ms
+18-Dec-2023 13:16:24.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:16:24.759 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.759 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.759 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:24.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [37] ms
+18-Dec-2023 13:16:24.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:16:26.107 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:26.107 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:26.108 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:16:26.123 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:16:26.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,353] ms
+18-Dec-2023 13:16:26.131 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:16:26.212 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3845] milliseconds
+18-Dec-2023 13:17:27.837 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:17:27.843 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:17:27.866 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 13:17:27.896 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Wilken] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Dec-2023 13:17:27.897 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Wilken] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 13:17:27.902 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:17:27.915 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:17:57 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:17:57.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:17:57.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:17:57.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:17:57.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:17:57.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:17:57.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:17:57.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:17:57.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:17:57.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:17:57.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:17:57.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:17:57.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:17:57.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:17:57.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:17:57.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:17:57.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:17:57.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:17:57.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:17:57.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:17:57.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:17:57.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:17:57.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:17:57.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:17:57.764 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:17:58.103 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:17:58.135 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [663] milliseconds
+18-Dec-2023 13:17:58.207 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:17:58.207 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:17:58.233 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:17:59.906 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:17:59.906 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:17:59.906 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.007 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:18:00.221 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,988] ms
+18-Dec-2023 13:18:00.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:18:00.256 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.256 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.256 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.271 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [48] ms
+18-Dec-2023 13:18:00.271 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:18:00.547 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.548 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [446] ms
+18-Dec-2023 13:18:00.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:18:00.741 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.741 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.741 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [47] ms
+18-Dec-2023 13:18:00.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:18:00.786 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.786 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.786 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:00.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [38] ms
+18-Dec-2023 13:18:00.803 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:18:01.923 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:01.924 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:01.924 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:18:01.939 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:18:01.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,141] ms
+18-Dec-2023 13:18:01.946 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:18:02.069 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3933] milliseconds
+18-Dec-2023 13:18:24.138 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:18:24.143 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:18:24.159 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 13:18:24.183 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Wilken] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Dec-2023 13:18:24.184 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Wilken] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 13:18:24.193 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:18:24.198 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+
+2023-12-18 13:22:10 Apache Commons Daemon procrun stderr initialized.
+18-Dec-2023 13:22:11.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+18-Dec-2023 13:22:11.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+18-Dec-2023 13:22:11.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+18-Dec-2023 13:22:11.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+18-Dec-2023 13:22:11.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+18-Dec-2023 13:22:11.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Dec-2023 13:22:11.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.9
+18-Dec-2023 13:22:11.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+18-Dec-2023 13:22:11.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+18-Dec-2023 13:22:11.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:22:11.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:22:11.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:22:11.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Program Files\Apache Software Foundation\Tomcat 10.1
+18-Dec-2023 13:22:11.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 10.1\temp
+18-Dec-2023 13:22:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Dec-2023 13:22:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Program Files\Apache Software Foundation\Tomcat 10.1\conf\logging.properties
+18-Dec-2023 13:22:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Dec-2023 13:22:11.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Dec-2023 13:22:11.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Dec-2023 13:22:11.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: exit
+18-Dec-2023 13:22:11.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: abort
+18-Dec-2023 13:22:11.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+18-Dec-2023 13:22:11.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx256m
+18-Dec-2023 13:22:11.092 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.9\bin;C:\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\WindowsApps;.]
+18-Dec-2023 13:22:11.409 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:22:11.442 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [647] milliseconds
+18-Dec-2023 13:22:11.505 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Dec-2023 13:22:11.505 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+18-Dec-2023 13:22:11.539 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war]
+18-Dec-2023 13:22:11.564 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken] was found with a last modified time that did not match the associated WAR. It will be deleted.
+18-Dec-2023 13:22:13.250 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.250 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.251 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.334 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:22:13.438 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\Wilken.war] has finished in [1,898] ms
+18-Dec-2023 13:22:13.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs]
+18-Dec-2023 13:22:13.474 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.474 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.474 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\docs] has finished in [50] ms
+18-Dec-2023 13:22:13.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples]
+18-Dec-2023 13:22:13.838 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.838 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:13.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\examples] has finished in [510] ms
+18-Dec-2023 13:22:13.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager]
+18-Dec-2023 13:22:14.022 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:14.023 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:14.023 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:14.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\host-manager] has finished in [45] ms
+18-Dec-2023 13:22:14.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager]
+18-Dec-2023 13:22:14.067 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:14.067 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:14.067 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:14.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\manager] has finished in [41] ms
+18-Dec-2023 13:22:14.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT]
+18-Dec-2023 13:22:15.137 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [tomcat] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:15.137 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [inhaber] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:15.137 WARNING [main] org.apache.catalina.startup.ContextConfig.validateSecurityRoles Security role name [mitarbeiter] used in an <auth-constraint> without being defined in a <security-role>
+18-Dec-2023 13:22:15.160 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Dec-2023 13:22:15.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\ROOT] has finished in [1,079] ms
+18-Dec-2023 13:22:15.170 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:22:15.427 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3984] milliseconds
+18-Dec-2023 13:22:53.722 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:22:53.728 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Dec-2023 13:22:53.855 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 13:22:53.893 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Wilken] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+18-Dec-2023 13:22:53.893 WARNING [Thread-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Wilken] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/java.lang.Object.wait(Native Method)
+ java.base@17.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:842)
+18-Dec-2023 13:22:53.899 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Dec-2023 13:22:53.905 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
